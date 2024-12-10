@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Temp.SecondPage"
+             Title="SecondPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="{Binding MyText}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="2) Second text not set in on appearing"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
